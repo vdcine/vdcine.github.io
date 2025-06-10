@@ -6,13 +6,30 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+generate_feeds = true
 
 theme = "daisy"
 
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+
+title = "Velada de Cine"
+description = "Miércoles 19:00 en el Auditorio"
+
+taxonomies = [
+    { name = "tags", paginate_by = 2, feed = true },
+    { name = "directors", paginate_by = 2, feed = true },
+]
+
+[search]
+# only this format is supported by the theme
+index_format = "elasticlunr_json"
 
 [extra]
-# Put all your custom variables here
+enable_theme_switching = false
+daisyui_theme_light = "retro"
+daisyui_theme_dark = "synthwave"
+links = [
+    { url = "blog", i18n_key = "posts" },
+    { url = "tags", i18n_key = "tags" },
+    { url = "movies", i18n_key = "movies" },
+]
+
