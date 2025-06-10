@@ -1,2 +1,6 @@
-# vdcine.github.io
-Velada de Cine
+# [Velada de Cine](vdcine.github.io)
+
+Todos los miércoles a las 19:00,
+en el Auditorio de la Biblioteca Menéndez
+de Pergamino.
+
