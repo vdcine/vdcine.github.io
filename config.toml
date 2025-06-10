@@ -6,17 +6,19 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
-generate_feeds = true
+generate_feeds = false
 
 theme = "daisy"
 
-
 title = "Velada de Cine"
-description = "Miércoles 19:00 en el Auditorio"
+description = "Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez"
 
 taxonomies = [
-    { name = "tags", paginate_by = 2, feed = true },
-    { name = "directors", paginate_by = 2, feed = true },
+    { name = "director", feed = true },
+    { name = "genero", feed = true },
+    { name = "estreno", feed = true },
+    { name = "ciclo", feed = true },
+    { name = "pais", feed = true },
 ]
 
 [search]
@@ -27,9 +29,16 @@ index_format = "elasticlunr_json"
 enable_theme_switching = false
 daisyui_theme_light = "retro"
 daisyui_theme_dark = "synthwave"
+
+[extra.navbar]
 links = [
-    { url = "blog", i18n_key = "posts" },
-    { url = "tags", i18n_key = "tags" },
-    { url = "movies", i18n_key = "movies" },
+    { url = "ciclos", i18n_key = "ciclos" },
+    { url = "pelis", i18n_key = "pelis" },
+    { url = "pais", i18n_key = "pais" },
 ]
 
+[extra.footer]
+notice = "Organizado por Matías Corona y Francisco Albani, con apoyo de la Comisión Directiva de la Biblioteca Menéndez."
+# links = [
+#     { url = "sitemap.xml", i18n_key = "sitemap", no_translation = true },
+# ]
