@@ -4,6 +4,6 @@ description = "3 sobre personas confundidas"
 date = "2025-05-01"
 +++
 
-* Persona
-* Being John Malkovich
-* Silvia Prieto
+* [Persona](@/pelis/persona.md)
+* [Being John Malkovich](@/pelis/malkovich.md)
+* [Silvia Prieto](@/pelis/silvia-prieto.md)
