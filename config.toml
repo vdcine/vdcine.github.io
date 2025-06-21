@@ -10,7 +10,7 @@ generate_feeds = false
 
 theme = "daisy"
 
-title = "Velada de Cine"
+title = "Veladas de Cine"
 description = "Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez"
 
 taxonomies = [
