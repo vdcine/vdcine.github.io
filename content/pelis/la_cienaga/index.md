@@ -1,6 +1,6 @@
 +++
 title = "La Ciénaga"
-description = "Un mitage de San Petersburgo y se encuentra con personajes históricos"
+description = "El vínculo de dos familias primas salteñas, una en decadencia"
 date = "2025-06-18"
 
 [taxonomies]
@@ -56,6 +56,7 @@ pais = ["Argentina"]
   * cuando no es correspondida, repite lo que dice su madre: *"china carnavalera"*.
 * Adultos inútiles dependientes de la servidumbre
   * Decadencia
+  * Las caras de Tani y su hija cuando Mecha le grita a Mamina para que traiga algo para tomar
 * Isabel les hace comer los pescados que Joaquín despreció
   * > estos coyas de mierda comen cualquier cosa
 * Fotosensibilidad de Mecha y Gregorio
