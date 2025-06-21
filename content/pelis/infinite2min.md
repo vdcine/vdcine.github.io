@@ -7,7 +7,7 @@ date = "2024-10-24"
 director = ["Junta Yamaguchi"]
 estreno = ["2020"]
 ciclo = ["Plano Secuencia"]
-genero = ["Ciencia Ficción", "Romance", "Comedia"]
+genero = ["Ciencia Ficción", "Romance", "Comedia", "Ópera prima"]
 pais = ["Japón"]
 +++
 

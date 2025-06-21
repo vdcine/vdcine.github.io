@@ -7,7 +7,7 @@ date = "2025-06-11"
 director = ["François Truffaut"]
 estreno = ["1959"]
 ciclo = ["Nouvelle Vague"]
-genero = ["Drama", "Autobiográfica", "coming-of-age"]
+genero = ["Drama", "Autobiográfica", "coming-of-age", "Ópera prima"]
 pais = ["Francia"]
 +++
 
