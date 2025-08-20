@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Veladas de Cine - 2002</title>
+    <subtitle>Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://vdcine.github.io/estreno/2002/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vdcine.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-10T00:00:00+00:00</updated>
+    <id>https://vdcine.github.io/estreno/2002/atom.xml</id>
+    <entry xml:lang="en">
+        <title>El Arca Rusa</title>
+        <published>2024-10-10T00:00:00+00:00</published>
+        <updated>2024-10-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vdcine.github.io/pelis/arca-rusa/"/>
+        <id>https://vdcine.github.io/pelis/arca-rusa/</id>
+        
+        <content type="html" xml:base="https://vdcine.github.io/pelis/arca-rusa/">&lt;h1 id=&quot;contexto-historico-de-rusia&quot;&gt;Contexto histórico de Rusia&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Siglo XVI
+&lt;ul&gt;
+&lt;li&gt;1533: Iván el Terrible, primer Tsar.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Siglo XVII
+&lt;ul&gt;
+&lt;li&gt;1613: comienza la Dinastía Romanov.&lt;&#x2F;li&gt;
+&lt;li&gt;1682: Pedro I &quot;El Grande&quot;, primer emperador.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Siglo XVIII
+&lt;ul&gt;
+&lt;li&gt;1703: fundación de San Petersburgo.&lt;&#x2F;li&gt;
+&lt;li&gt;1764: Museo Hermitage.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Siglo XIX
+&lt;ul&gt;
+&lt;li&gt;el siglo de Tolstoi, Turguénev y Dostoyevki.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Siglo XX
+&lt;ul&gt;
+&lt;li&gt;1914: Primera Guerra Mundial.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;cronica&quot;&gt;Crónica&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Asistieron 16 personas.
+&lt;ul&gt;
+&lt;li&gt;Abandonaron 4.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Uno de los asistentes llegó 5 minutos tarde
+y vió toda la película creyendo que era
+sobre fantasmas.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

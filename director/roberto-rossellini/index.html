@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en" data-theme="retro">
+
+<head>
+    <title>Veladas de Cine</title>
+
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez">
+
+    <!-- stylesheets, fonts, feeds -->
+    <link rel="stylesheet" href="/css/main.css?VEuJJL" integrity="sha384-VEuJJLv6GQqSmQ3X8sGHVll+XnYmFhafmEmNiSkGshD2WKAjBtIjPxpIKsFIkbdP">
+    
+
+    <!-- favicon -->
+    
+
+    <!-- java script for setting theme as saved in local storage (needs to be inline to avoid flicker) -->
+    <script>
+        // select default theme based on preferred color scheme (as set in the browser)
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            default_theme = 'synthwave'
+        } else {
+            default_theme = 'retro'
+        }
+
+        // try to get theme from local storage and set it (or the default theme) to the HTML element
+        const theme = localStorage.getItem('theme') || default_theme;
+        document.documentElement.setAttribute("data-theme", theme);
+
+        // execute code after the DOM content was loaded
+        document.addEventListener("DOMContentLoaded", function (event) {
+            // select theme at the theme selector (if it is present in the HTML code)
+            var btnEl = document.querySelector("[data-set-theme='" + theme.toString() + "']");
+            if (btnEl) {
+                btnEl.classList.add("btn-active")
+                btnEl.classList.add("btn-primary")
+            }
+        })
+    </script>
+</head>
+
+<body class="h-screen">
+    <div class="@container drawer min-h-full">
+        <input id="main-drawer" type="checkbox" class="drawer-toggle lg:hidden">
+        <div class="drawer-content flex min-h-full flex-col"><!-- to expand over the full screen even on short pages -->
+            <header class="sticky top-0 z-50 text-primary-content bg-primary shadow-sm opacity-93">
+                <div class="navbar">
+                <div class="navbar-start">
+                    <a class="btn btn-ghost hover:bg-primary-content hover:text-primary text-xl no-underline" href="/">Veladas de Cine</a>
+                </div>
+                <div class="navbar-center max-lg:hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-x-2">
+                        
+                        <li>
+ 
+<a href="/ciclos"
+     class="hover:bg-primary-content hover:text-primary no-underline px-3 rounded-md" >
+        <span class="">Ciclos</span>
+</a>
+</li>
+                        
+                        
+                        <li>
+ 
+<a href="/pelis"
+     class="hover:bg-primary-content hover:text-primary no-underline px-3 rounded-md" >
+        <span class="">Películas</span>
+</a>
+</li>
+                        
+                        
+                        <li>
+ 
+<a href="/pais"
+     class="hover:bg-primary-content hover:text-primary no-underline px-3 rounded-md" >
+        <span class="">Países</span>
+</a>
+</li>
+                        
+                        
+                        
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    
+                    
+                    <div class="max-md:hidden">
+                        <label tabindex="0" class="input text-primary bg-primary-content focus:outline-teal-500">
+                            <svg role="img" aria-label="Search" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 h-[1em] opacity-50" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" /></svg>
+                            <input id="desktop-search" type="search" class="search-input grow" placeholder="Search">
+                            <kbd class="kbd kbd-sm bg-primary text-primary-content">⌘</kbd>
+                            <kbd class="kbd kbd-sm bg-primary text-primary-content">K</kbd>
+                        </label>
+                    </div>
+                    <label id="search-button" for="search-bar" aria-label="open search" class="btn btn-square btn-ghost swap swap-rotate hover:bg-primary-content hover:text-primary md:hidden">
+                        <svg role="img" aria-label="Search" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" /></svg>
+                    </label>
+                    
+                    <label for="main-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost swap swap-rotate hover:bg-primary-content hover:text-primary lg:hidden">
+                        <svg role="img" aria-label="List" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 h-6 w-6 swap-off [:checked~*_&amp;]:!-rotate-45 [:checked~*_&amp;]:!opacity-0" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" /></svg>
+                        <svg role="img" aria-label="X" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 h-5 w-5 swap-on [:checked~*_&amp;]:!rotate-0 [:checked~*_&amp;]:!opacity-100" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" /></svg>
+                    </label>
+                    </div>
+                </div>
+                <div id="search-bar" class="hidden md:hidden pl-2 pr-2 pb-2">
+                    <label tabindex="0" class="input text-primary bg-primary-content w-full">
+                        <svg role="img" aria-label="Search" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 h-[1em] opacity-50" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" /></svg>
+                        <input id="mobile-search" type="search" class="search-input grow" placeholder="Search">
+                    </label>
+                </div>
+            </header>
+
+            <main class="flex-1 flex justify-center px-4">
+                <div class="@container flex-col flex-1 shrink mt-4 max-w-4xl">
+                    <!-- search results shown between header and content -->
+                    <div tabindex="0"
+                        class="search-results dropdown-content hidden bg-base-200 text-base-content rounded-box z-1 p-2 shadow-2xl list-none max-w-4xl flex-row lg:absolute lg:right-0 lg:mr-4">
+                        <div class="search-results__items"></div>
+                    </div>
+
+                    <div class="pb-8">
+                    
+
+
+
+
+<div class="flex flex-col items-center mt-10">
+    <h1 class="">Roberto Rossellini</h1>
+    <p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    
+    <div class="card card-border bg-base-200 grow basis-0 max-w-100 shadow-xl transform transition duration-500 hover:scale-103">
+        <div class="card-body grow">
+            <a href="https:&#x2F;&#x2F;vdcine.github.io&#x2F;pelis&#x2F;roma-citta-aperta&#x2F;" class="no-underline">
+                <h2 class="card-title">Roma città aperta</h2>
+            </a>
+
+            <!-- Metadata (date and authors) -->
+            <div class="flex flex-wrap space-x-6 pl-1 mb-2">
+                
+                <span class="flex items-center whitespace-nowrap">
+                    <svg role="img" aria-label="Calendar" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" /></svg>
+                    <span><time datetime="2025-07-16">16-Jul-2025</time></span>
+                </span>
+                
+
+                
+            </div>
+
+            <p></p>
+
+            
+            
+            <div class="flex flex-wrap space-x-6 pl-1 mb-2">
+            
+            
+            <span class="flex items-center whitespace-nowrap">
+                <svg role="img" aria-label="Tag" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>
+                <a href="https://vdcine.github.io/ciclo/neorealismo-italiano/" class="no-underline hover:underline">Neorealismo Italiano</a>
+            </span>
+            
+            
+            
+            <span class="flex items-center whitespace-nowrap">
+                <svg role="img" aria-label="Tag" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>
+                <a href="https://vdcine.github.io/genero/nostalgia/" class="no-underline hover:underline">nostalgia</a>
+            </span>
+            
+            
+            
+            <span class="flex items-center whitespace-nowrap">
+                <svg role="img" aria-label="Tag" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>
+                <a href="https://vdcine.github.io/estreno/1945/" class="no-underline hover:underline">1945</a>
+            </span>
+            
+            
+            
+            <span class="flex items-center whitespace-nowrap">
+                <svg role="img" aria-label="Tag" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>
+                <a href="https://vdcine.github.io/director/roberto-rossellini/" class="no-underline hover:underline">Roberto Rossellini</a>
+            </span>
+            
+            
+            
+            <span class="flex items-center whitespace-nowrap">
+                <svg role="img" aria-label="Tag" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-4 w-4 mr-2 " viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>
+                <a href="https://vdcine.github.io/pais/italia/" class="no-underline hover:underline">Italia</a>
+            </span>
+            
+            
+            </div>
+            
+
+            <div class="card-actions justify-end">
+                <a href="https:&#x2F;&#x2F;vdcine.github.io&#x2F;pelis&#x2F;roma-citta-aperta&#x2F;" class="btn btn-secondary">Read</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</p>
+</div>
+
+
+                    </div>
+                </div>
+            </main>
+
+            
+
+            <footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded pt-6 gap-0">
+                
+                <nav class="grid grid-flow-col gap-4 mb-6">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                </nav>
+                
+                <aside>
+                    <p>© 2025 Organizado por Matías Corona y Francisco Albani, con apoyo de la Comisión Directiva de la Biblioteca Menéndez.</p>
+                </aside>
+                
+            </footer>
+        </div>
+
+        <div class="drawer-side z-60">
+            <label for="main-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+            <ul class="menu menu-lg bg-base-200 min-h-full w-80 p-4">
+                
+                
+                
+ 
+<li><a href="/ciclos"
+     class="link no-underline" >
+        Ciclos
+</a></li>
+
+                
+                
+ 
+<li><a href="/pelis"
+     class="link no-underline" >
+        Películas
+</a></li>
+
+                
+                
+ 
+<li><a href="/pais"
+     class="link no-underline" >
+        Países
+</a></li>
+
+                
+                
+                <hr class="mt-2 mb-2">
+                
+                
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <script src="/js/search.js?FH1MHE" integrity="sha384-FH1MHEacANbeZ3k1+ZOepBm+BEQ3yC/1GKPgoKmaH7WM4HZiDm3c08x2995Eer9/" lang="en"></script>
+    <script src="/elasticlunr.min.js?Q8viz7" integrity="sha384-Q8viz7rndi8MSNDtItDgVWNSrCumjepopRMlz2nElkWPRXDQAcfiZGJbrCJVXdtw" ></script>
+    
+    </body>
