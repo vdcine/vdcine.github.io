@@ -8,7 +8,7 @@ director = ["Alex Garland"]
 genero = ["Ciencia Ficción", "Ópera prima", "Suspenso", "Drama"]
 estreno = ["2015"]
 ciclo = ["Inteligencia Artificial: Dilemas Morales"]
-pais = ["Gran Bretaña"]
+pais = ["Reino Unido"]
 +++
 
 * Notas pendientes!

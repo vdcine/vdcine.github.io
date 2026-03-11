@@ -8,7 +8,7 @@ director = ["Alan Parker"]
 estreno = ["1982"]
 ciclo = ["Musicales"]
 genero = ["Drama", "Musical"]
-pais = ["Gran Bretaña"]
+pais = ["Reino Unido"]
 +++
 
 # Crónica
