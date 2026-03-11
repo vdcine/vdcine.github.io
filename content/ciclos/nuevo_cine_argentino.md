@@ -5,4 +5,4 @@ date = "2025-06-18"
 +++
 
 * [La Ciénaga](@/pelis/la_cienaga/index.md)
-* [Pizza, Birra y Faso](@pelis/pizza_birra_faso.md)
+* [Pizza, Birra y Faso](@/pelis/pizza_birra_faso.md)
