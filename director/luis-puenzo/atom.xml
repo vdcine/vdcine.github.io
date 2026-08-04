@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Veladas de Cine - Luis Puenzo</title>
+    <subtitle>Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://vdcine.github.io/director/luis-puenzo/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vdcine.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-18T00:00:00+00:00</updated>
+    <id>https://vdcine.github.io/director/luis-puenzo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>La Historia Oficial</title>
+        <published>2026-03-18T00:00:00+00:00</published>
+        <updated>2026-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vdcine.github.io/pelis/historia-oficial/"/>
+        <id>https://vdcine.github.io/pelis/historia-oficial/</id>
+        
+        <content type="html" xml:base="https://vdcine.github.io/pelis/historia-oficial/">&lt;p&gt;Presentará Marcela López.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

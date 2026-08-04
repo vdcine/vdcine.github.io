@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Veladas de Cine - 2020</title>
+    <subtitle>Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://vdcine.github.io/estreno/2020/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vdcine.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-24T00:00:00+00:00</updated>
+    <id>https://vdcine.github.io/estreno/2020/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Más Allá de los Dos Minutos Infinitos</title>
+        <published>2024-10-24T00:00:00+00:00</published>
+        <updated>2024-10-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vdcine.github.io/pelis/infinite2min/"/>
+        <id>https://vdcine.github.io/pelis/infinite2min/</id>
+        
+        <content type="html" xml:base="https://vdcine.github.io/pelis/infinite2min/">&lt;h1 id=&quot;notas-de-mati&quot;&gt;Notas de Mati&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;notas-de-fran&quot;&gt;Notas de Fran&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Handshake&lt;&#x2F;em&gt; criptográfico&lt;&#x2F;li&gt;
+&lt;li&gt;Efecto Droste
+&lt;ul&gt;
+&lt;li&gt;Latas de Royal&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;cuento &quot;El Aleph&quot; de Borges.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
