@@ -1,6 +1,6 @@
 +++
 title = "50 años de la Dictadura"
-description = "pendiente"
+description = "descripción pendiente"
 date = "2026-03-11"
 +++
 
