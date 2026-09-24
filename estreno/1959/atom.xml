@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Veladas de Cine - 1959</title>
+    <subtitle>Cine Debate todos los miércoles 19:00 en el Auditorio de la Biblioteca Menéndez</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://vdcine.github.io/estreno/1959/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vdcine.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-11T00:00:00+00:00</updated>
+    <id>https://vdcine.github.io/estreno/1959/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Les 400 coups</title>
+        <published>2025-06-11T00:00:00+00:00</published>
+        <updated>2025-06-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vdcine.github.io/pelis/les400coups/"/>
+        <id>https://vdcine.github.io/pelis/les400coups/</id>
+        
+        <content type="html" xml:base="https://vdcine.github.io/pelis/les400coups/">&lt;h1 id=&quot;notas-de-mati&quot;&gt;Notas de Mati&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;notas-de-fran&quot;&gt;Notas de Fran&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Cahiers du Cinema
+&lt;ul&gt;
+&lt;li&gt;críticos&lt;&#x2F;li&gt;
+&lt;li&gt;teoría de &quot;cine de autor&quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Autobiográfica&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hiroshima mon amour</title>
+        <published>2025-06-04T00:00:00+00:00</published>
+        <updated>2025-06-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vdcine.github.io/pelis/hiroshima-mon-amour/"/>
+        <id>https://vdcine.github.io/pelis/hiroshima-mon-amour/</id>
+        
+        <content type="html" xml:base="https://vdcine.github.io/pelis/hiroshima-mon-amour/">&lt;p&gt;asdasd&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
